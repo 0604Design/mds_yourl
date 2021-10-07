@@ -5,18 +5,18 @@
  */
 
 /** MySQL database username */
-define( 'YOURLS_DB_USER', 'macdwzjl_macdaddy' );
+define( 'YOURLS_DB_USER', 'macdaddy_macdaddy' );
 
 /** MySQL database password */
 define( 'YOURLS_DB_PASS', '2019MDS&&' );
 
 /** The name of the database for YOURLS
  ** Use lower case letters [a-z], digits [0-9] and underscores [_] only */
-define( 'YOURLS_DB_NAME', 'macdwzjl_mds_yourl' );
+define( 'YOURLS_DB_NAME', 'macdaddy_mds_yourl' );
 
 /** MySQL hostname.
  ** If using a non standard port, specify it like 'hostname:port', e.g. 'localhost:9999' or '127.0.0.1:666' */
-define( 'YOURLS_DB_HOST', 'localhost' );
+define( 'YOURLS_DB_HOST', 'localhost:3306' );
 
 /** MySQL tables prefix
  ** YOURLS will create tables using this prefix (eg `yourls_url`, `yourls_options`, ...)
